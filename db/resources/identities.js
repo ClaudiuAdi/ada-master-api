@@ -13,8 +13,8 @@ module.exports = async () => {
     },
     {
       email: 'pam@email.com',
-      first_name: 'Claudiu',
-      last_name: 'Comorasu',
+      first_name: 'Marian',
+      last_name: 'Popescu',
       role: 'player',
       password: hashSync('supersecretpassword'),
       active: true,

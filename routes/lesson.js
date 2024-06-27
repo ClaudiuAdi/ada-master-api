@@ -10,6 +10,7 @@ router.post('/lessons', authenticate, Lesson.create);
 router.delete('/lesson/:id', authenticate, Lesson.remove);
 router.get('/lesson/:id', authenticate, Lesson.readOne);
 router.put('/lesson/:id', authenticate, Lesson.update);
+router.put('/lesson/finish/:id', authenticate, Lesson.finishLesson);
 router.get('/admin/lesson/:id', authenticate, Lesson.adminReadOne);
 
 router.post('/suggestion', authenticate, Suggestion.createAboutMe);
